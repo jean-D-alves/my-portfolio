@@ -1,12 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { projects } from "@/src/data/projects";
-import BackBar from "@/src/Components/BackBar";
+import NavBar from "@/src/Components/NavBar";
 
 export default function ProjectsPage() {
   return (
-    <section className="min-h-screen bg-[#171717] px-6 py-5">
-      <BackBar name="My projects" />
+    <section className="min-h-screen bg-[#171717] px-6 py-25">
+      <NavBar />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
         {projects.map((project) => (
