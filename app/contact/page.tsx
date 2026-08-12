@@ -12,7 +12,7 @@ export default function Contact() {
       <NavBar />
       <section className="flex flex-col justify-center items-center w-screen h-screen p-5 lg:flex-row">
         <div className="flex flex-col justify-center items-center w-full h-full p-9 gap-9 ">
-          <div  className="flex flex-col justify-basiline items-baseline bg-primary w-2xs h-80 p-9 gap-9 lg:w-xs ">
+          <div  className="flex flex-col justify-basiline items-baseline bg-primary rounded-2xl w-2xs h-80 p-9 gap-9 lg:w-xs ">
             <h1 className="text-4xl">Get in touch</h1>
             <div className="flex flex-col gap-4 justify-center items-baseline text-center">
               <div className="flex flex-row items-center gap-2">
