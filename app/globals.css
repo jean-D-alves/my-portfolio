@@ -2,9 +2,9 @@
 
 :root {
   --background: #171717;
-  --foreground: #FAFAFA;
-  --metadata: #A3A3A3;
-  --primary: #EF4444;
+  --foreground: #fafafa;
+  --metadata: #a3a3a3;
+  --primary: #ef4444;
   --accent: #303030;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .StikerBackground {
-  animation: StikerBackground 4.0s infinite;
+  animation: StikerBackground 4s infinite;
 }
 
 @media (max-width: 767px) {
@@ -37,15 +37,42 @@
   }
 }
 
-@keyframes OpenAbout {
-  form{
+@keyframes OpenResumo {
+  from {
     opacity: 0;
-    translate: -100vw 0;
+    
   }
-  to{
+  to {
     opacity: 1;
-    translate: 0 0;
+    
   }
+}
+
+@keyframes OpenAbout {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.Open-Resumo {
+  animation: OpenResumo;
+  animation-timeline: view();
+  animation-range: cover 0% cover 50%;
+}
+
+.Image-Profile {
+  animation: OpenAbout;
+  animation-timeline: view();
+  animation-range: cover 0% cover 50%;
+}
+.Text-Profile {
+  animation: OpenAbout;
+  animation-timeline: view();
+  animation-range: cover 0% cover 50%;
 }
 
 body {

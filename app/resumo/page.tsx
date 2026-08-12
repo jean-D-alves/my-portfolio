@@ -109,7 +109,7 @@ export default function Resume() {
             Download CV
           </button>
         </div>
-        <div className="flex flex-col gap-6">
+        <div className="Open-Resumo flex flex-col gap-6">
           <div className="border border-neutral-800 bg-neutral-900 rounded-2xl p-6 font-mono text-sm">
             <p className="pl-4 text-neutral-300">
               I&acute;m a backend developer focused on building reliable APIs
@@ -130,8 +130,7 @@ export default function Resume() {
           </div>
         </div>
       </section>
-      <div className="grid md:grid-cols-3 gap-10"></div>
-      <div className="md:col-span-2 flex flex-col gap-10">
+      <div className="Open-Resumo md:col-span-2 flex flex-col gap-10">
         <section>
           <h2 className="font-display text-lg font-bold flex items-center gap-2 mb-6">
             <span className="w-8 h-8 rounded-lg flex items-center justify-center">
@@ -139,7 +138,7 @@ export default function Resume() {
             </span>
             Education
           </h2>
-          <div className="relative pl-6  flex flex-col gap-6">
+          <div className=" relative pl-6  flex flex-col gap-6">
             {education.map((item, i) => (
               <div key={i} className="relative">
                 <p className="font-mono text-sm">
@@ -155,7 +154,7 @@ export default function Resume() {
         </section>
 
         <section>
-          <h2 className="font-display text-lg font-bold flex items-center gap-2 mb-6">
+          <h2 className=" font-display text-lg font-bold flex items-center gap-2 mb-6">
             <span className="w-8 h-8 rounded-lg flex items-center justify-center">
               <TbBriefcase size={16} className="text-red-400" />
             </span>

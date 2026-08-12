@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function AboutMe() {
   return (
     <section className="relative flex flex-col h-screen justify-around items-center lg:flex-row">
-      <div className="relative bg-linear-to-br from-primary to-background w-2xs h-66">
+      <div className="Image-Profile relative bg-linear-to-br from-primary to-background w-2xs h-66">
         <Image
           src={"/Perfil2-NB.png"}
           alt={"Foto"}
@@ -11,7 +11,7 @@ export default function AboutMe() {
           className="object-cover"
         />
       </div>
-      <div className="flex flex-col w-full max-w-2xl p-2.5 gap-2.5">
+      <div className="Text-Profile flex flex-col w-full max-w-2xl p-2.5 gap-2.5">
         <h1 className="text-5xl"><strong>About <span className="text-primary">me</span></strong></h1>
         <h2 className="text-3xl">Full stack developer</h2>
         <p>

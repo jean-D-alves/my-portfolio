@@ -4,7 +4,7 @@ import RippleBackground from "@/src/Components/RippleBackground";
 export default function Home() {
   return (
     <main>
-      <div className="relative flex h-screen justify-center items-center ">
+      <div className="relative flex h-screen justify-center  items-center ">
         <NavBar />
         <RippleBackground />
         <div className="flex flex-col justify-center absolute z-10">
