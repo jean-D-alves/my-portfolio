@@ -29,7 +29,7 @@ export const projects: Project[] = [
     longDescription:
       "Landnpage de uma empresa local. com foco em redirecionar para o WhatsApp e demonstrar os serviços",
     stack: ["Next.js", "TypeScript", "Tailwind CSS"],
-    image: "/projects/alfa-artes.png",
+    image: "/projects/alfaartes.png",
     link: "https://alfa-artes.vercel.app",
   },
 ];
