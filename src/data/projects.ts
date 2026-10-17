@@ -18,7 +18,7 @@ export const projects: Project[] = [
     longDescription:
       "O Site funciona tanto como um cardapio quanto para compras, sendo possivel enviar o pedido de compra",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "C#", "Postgres"],
-    image: "/projects/PontoDaFarra.png",
+    image: "/projects/pontodafarra.png",
     link: "https://ponto-da-farra.vercel.app",
   },
   {
