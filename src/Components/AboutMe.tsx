@@ -8,6 +8,7 @@ export default function AboutMe() {
           src={"/Perfil2-NB.png"}
           alt={"Foto"}
           fill
+          sizes="288px"
           className="object-cover"
         />
       </div>
@@ -20,7 +21,13 @@ export default function AboutMe() {
           back-end skills to create amazing user experiences. One fun fact about
           me is that I play table tennis and chess.
         </p>
-        <button className="flex bg-primary rounded-2xl text-foreground w-30 h-10 justify-center items-center">Download CV</button>
+        <a
+          href="/Curriculo_Jean_Vinícius.pdf"
+          download="Curriculo_Jean_Vinícius.pdf"
+          className="flex bg-primary rounded-2xl text-foreground w-30 h-10 justify-center items-center"
+        >
+          Download CV
+        </a>
       </div>
     </section>
   );

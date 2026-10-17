@@ -34,6 +34,7 @@ export default function ContactForm() {
       onSubmit={handleSubmit}
       className="flex flex-col gap-4 max-w-lg w-full"
     >
+      <h1 className="text-4xl">Fale comigo pelo Email</h1>
       <div className="flex flex-col gap-2">
         <label htmlFor="from_name" className="text-sm text-neutral-300">
           Nome

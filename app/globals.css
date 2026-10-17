@@ -18,22 +18,48 @@
   --font-serif: var(--font-play-fair);
 }
 
-.StikerBackground {
-  animation: StikerBackground 4s infinite;
-}
-
-@media (max-width: 767px) {
-  .StikerBackground {
-    animation-duration: 2s;
+@keyframes BackgroundFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 
-@keyframes StikerBackground {
-  0% {
-    transform: translateX(0);
+.background-fade-in {
+  animation: BackgroundFadeIn 10s ease both;
+}
+
+@keyframes HeroFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
   }
-  100% {
-    transform: translateX(300vw);
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-reveal {
+  opacity: 0;
+  animation: HeroFadeUp 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) 0.1s both;
+}
+
+.hero-reveal--title {
+  animation-duration: 0.9s;
+  animation-delay: 0.25s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .background-fade-in {
+    animation: none;
+  }
+
+  .hero-reveal {
+    opacity: 1;
+    animation: none;
   }
 }
 

@@ -9,7 +9,7 @@ export default function ProjectsPage() {
       <NavBar />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-        {projects.map((project) => (
+        {projects.map((project, index) => (
           <Link
             key={project.slug}
             href={`/projects/${project.slug}`}
@@ -20,6 +20,8 @@ export default function ProjectsPage() {
                 src={project.image}
                 alt={project.title}
                 fill
+                sizes="(max-width: 767px) 100vw, (max-width: 1071px) 50vw, 496px"
+                priority={index === 0}
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
               />
             </div>

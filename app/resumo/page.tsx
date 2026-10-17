@@ -70,6 +70,7 @@ export default function Resume() {
               src="/Perfil1-NB.png"
               alt="Foto de perfil de Jean Vinícius"
               fill
+              sizes="160px"
               className="object-cover rounded-2xl"
               priority
             />
@@ -105,9 +106,13 @@ export default function Resume() {
               </a>
             </div>
           </div>
-          <button className="flex bg-primary rounded-2xl text-foreground w-full h-12 justify-center items-center hover:opacity-50">
+          <a
+            href="/Curriculo_Jean_Vinícius.pdf"
+            download="Curriculo_Jean_Vinícius.pdf"
+            className="flex bg-primary rounded-2xl text-foreground w-full h-12 justify-center items-center hover:opacity-50"
+          >
             Download CV
-          </button>
+          </a>
         </div>
         <div className="Open-Resumo flex flex-col gap-6">
           <div className="border border-neutral-800 bg-neutral-900 rounded-2xl p-6 font-mono text-sm">
