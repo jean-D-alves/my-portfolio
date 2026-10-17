@@ -17,7 +17,7 @@ export const projects: Project[] = [
     description: "Cardapio digital",
     longDescription:
       "O Site funciona tanto como um cardapio quanto para compras, sendo possivel enviar o pedido de compra",
-    stack: ["Next.js", "TypeScript", "Tailwind CSS", "C#", "Postgres"],
+    stack: ["Next.js", "TypeScript", "Tailwind CSS","aps.net", "C#", "Postgres"],
     image: "/projects/pontodafarra.png",
     link: "https://ponto-da-farra.vercel.app",
   },
@@ -30,6 +30,16 @@ export const projects: Project[] = [
     stack: ["Next.js", "TypeScript", "Tailwind CSS"],
     image: "/projects/alfaartes.png",
     link: "https://alfa-artes.vercel.app",
+  },
+  {
+    slug: "Templum-Studii",
+    title: "Templum Studii",
+    description: "Aplicativo mobile para estudo",
+    longDescription:
+      "O aplicativo foi desenvolvido com o objetivo de determinar horas semanais de estudo, como um desafio a si mesmo",
+    stack: ["Flutter", "Asp.net", "C#", "postgres"],
+    image: "/projects/templumstudii.png",
+    link: "https://github.com/jean-D-alves/TemplumStudii/releases",
   },
   {
     slug: "Aitto-branding",
